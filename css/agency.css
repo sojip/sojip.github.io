@@ -7,15 +7,19 @@ html {
   scroll-behavior: smooth;
 }
 
-#more1, #more2, #more3, #more4 {display: none;}
-
+/* #more1, #more2, #more3, #more4 {
+  display: none;
+} */
 .readMore, .readMore:visited {
   background-color: #000000 !important;
   border: 3px solid #8c4c9c !important;
 
 }
 
-i
+.card-body {
+  min-height: content;
+}
+
 
 body {
   overflow-x: hidden;
