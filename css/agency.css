@@ -7,9 +7,47 @@ html {
   scroll-behavior: smooth;
 }
 
-/* #more1, #more2, #more3, #more4 {
-  display: none;
-} */
+/* full landing */
+.scroll .hero {
+  transform: scale(0.98);
+} 
+ 
+.hero {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s ease-in-out;
+
+}
+.text-white {
+  font-size: 30px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding-top: 60px;
+}
+
+.text-heading {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: 'Solway', serif;
+}
+
+.hero .container-fluid {
+  z-index: 10;
+  margin-top: 150px;
+}
+
+#home {
+  background-image: url("../img/modern-laptop-colorful-close-up-picjumbo-com.jpg");
+}
+/*full landing */
+
 .readMore, .readMore:visited {
   background-color: #000000 !important;
   border: 3px solid #8c4c9c !important;
@@ -310,7 +348,7 @@ img::-moz-selection {
   }
 }
 
-header.masthead {
+/* header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/modern-laptop-colorful-close-up-picjumbo-com.jpg");
@@ -319,43 +357,39 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 
-}
+} */
 
 
-header.masthead .intro-text {
+/* header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
-}
+} */
 
-header.masthead .intro-text .intro-lead-in {
+/* header.masthead .intro-text .intro-lead-in {
   font-size: 30px;;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'PT Sans Narrow', sans-serif;
-}
+} */
 
-header.masthead .intro-text .intro-heading {
+/* header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Solway', serif;
-}
+} */
 
 @media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 55px;
+  .text-white{
+    font-size: 45px;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'PT Sans Narrow', sans-serif;
   }
-  header.masthead .intro-text .intro-heading {
+  .text-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
